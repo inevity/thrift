@@ -22,7 +22,7 @@
 #include <string.h>
 #include <inttypes.h>
 #include <netinet/in.h>
-
+#define _LUA51_ lua5.1
 extern int64_t lualongnumber_checklong(lua_State *L, int index);
 extern int64_t lualongnumber_pushlong(lua_State *L, int64_t *val);
 

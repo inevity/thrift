@@ -23,9 +23,9 @@ SUBDIRS = .
 
 lib_LTLIBRARIES = \
 			libluasocket.la \
-			libluabpack.la \
 			libluabitwise.la \
-			liblualongnumber.la
+			liblualongnumber.la \
+			libluabpack.la 
 
 libluasocket_la_SOURCES = \
 			src/luasocket.c \

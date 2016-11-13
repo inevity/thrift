@@ -268,7 +268,7 @@ AM_CONDITIONAL(HAVE_NPM, [test "x$NPM" != "x"])
 AX_THRIFT_LIB(lua, [Lua], yes)
 have_lua=no
 if test "$with_lua" = "yes"; then
-  AX_PROG_LUA(5.2,, have_lua="yes", have_lua="no")
+  AX_PROG_LUA(5.1,, have_lua="yes", have_lua="no")
   if test "$have_lua" = "yes"; then
     AX_LUA_HEADERS(, have_lua="no")
     AX_LUA_LIBS(, have_lua="no")
