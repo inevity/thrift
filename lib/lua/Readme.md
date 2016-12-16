@@ -7,3 +7,4 @@
 LUA=/usr/local/openresty/luajit/bin/luajit
 LUA_INCLUDE=-I/usr/local/openresty/luajit/include/luajit-2.1
 LUA_LIB=-lluajit-5.1
+thrift --gen lua /root/hbase/hbase-thrift/src/main/resources/org/apache/hadoop/hbase/thrift2/hbase.thrift
